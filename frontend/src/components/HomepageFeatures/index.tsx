@@ -13,7 +13,7 @@ type FeatureItem = {
 };
 
 const featureData = {
-  title: "Document it",
+  title: "Document it...",
   img: require("@site/static/img/documentation.jpg").default,
   description: (
     <>
@@ -45,7 +45,7 @@ export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div>
+        <div style={{ paddingTop: "80px" }}>
           <Feature featureData={featureData} />
         </div>
       </div>
