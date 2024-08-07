@@ -4,6 +4,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
+import { useColorMode } from "@docusaurus/theme-common";
 
 import styles from "./index.module.css";
 
@@ -29,8 +30,15 @@ function HomepageHeader() {
   );
 }
 
+function Box() {
+  const { colorMode } = useColorMode();
+  const background = colorMode === "dark" ? "#000" : "#fff";
+  return <div style={{ height: "220px", background: background }}></div>;
+}
+
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
+
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -40,6 +48,7 @@ export default function Home(): JSX.Element {
       <main>
         <HomepageFeatures />
       </main>
+      <Box />
     </Layout>
   );
 }
