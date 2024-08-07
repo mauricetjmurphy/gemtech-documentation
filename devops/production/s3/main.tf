@@ -16,8 +16,8 @@ locals {
   region      = "us-east-1"
   name        = "docs"
   environment = "prod"
-  domain_name = "docs.gemtechsolutionsltd.com"
-  root_domain = "gemtechsolutionsltd.com"
+  domain_name = "docs.mauricemurphy.org"
+  root_domain = "mauricemurphy.org"
 }
 
 module "s3_bucket" {

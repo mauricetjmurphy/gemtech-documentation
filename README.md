@@ -2,4 +2,4 @@
 
 GitHub repo for gemtech-documentation
 
-Site available at: https://docs.gemtechsolutionsltd.com
+Site available at: https://docs.mauricemurphy.org

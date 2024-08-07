@@ -1,8 +1,0 @@
-{
-  "name": "gemtech-documentation",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:mauricetjmurphy/gemtech-documentation.git",
-  "author": "Maurice Murphy <mauricetjmurpy@gmail.com>",
-  "license": "MIT"
-}
