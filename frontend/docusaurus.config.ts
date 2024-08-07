@@ -8,7 +8,7 @@ const config: Config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://docs.mauricemurphy.org",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -45,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/mauricetjmurphy/gemtech-documentation/frontend",
+            "https://github.com/mauricetjmurphy/gemtech-documentation/tree/dev/frontend",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -72,7 +72,7 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/mauricetjmurphy/gemtech-documentation/frontend",
+          href: "https://github.com/mauricetjmurphy/gemtech-documentation/tree/dev/frontend",
           label: "GitHub",
           position: "right",
         },
